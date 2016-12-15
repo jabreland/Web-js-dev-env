@@ -14,10 +14,10 @@ install:
 # Post-install test scripts.
 test_script:
     # Output useful info for debugging.
-    -node --verson
-    -npm --verson
+    - node --verson
+    - npm --verson
     # run tests
-    -npm test
+    - npm test
 
 # Don't actually build
 build: off
